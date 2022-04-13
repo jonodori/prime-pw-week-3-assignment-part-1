@@ -94,6 +94,9 @@ console.log(' The favorite foods are now', favFoods);
 
 // 4.f (STRETCH) TODO: Sort your favoriteFoods array
 //     in reverse alphabetical order. Log the array.
+favFoods.sort();
+console.log(favFoods);
+
 
 // 4.g (STRETCH) TODO: Convert your array to a string
 //     putting the word "and" between each item.
@@ -104,3 +107,6 @@ console.log(' The favorite foods are now', favFoods);
 //     Then log the new array.
 //     It should look something like:
 //     ['pizza', 'pasta', 'fish', 'cat', 'bird', 'dog']
+
+const newArray = favFoods.concat(animalArray);
+console.log(newArray);
